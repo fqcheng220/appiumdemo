@@ -4,9 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 //        AutoTest autoTest = new AutoTestAndroidNative();
-//        AutoTest autoTest = new AutoTestAndroidNative2();
+        AutoTest autoTest = new AutoTestAndroidNativeTonghuashun();
 //        AutoTest autoTest = new AutoTestAndroidWebViewDemo();
-        AutoTest autoTest = new AutoTestAndroidWebViewQonline();
+//        AutoTest autoTest = new AutoTestAndroidWebViewQonline();
         autoTest.start();
 //        nativeTest2();
     }
