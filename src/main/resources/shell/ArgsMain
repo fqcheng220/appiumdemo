@@ -1,0 +1,8 @@
+#!/system/bin/sh
+#
+# Script to start "ArgsMain" on the device, which has a very rudimentary
+# shell.
+#
+base=/system
+export CLASSPATH=$base/framework/ArgsMain.jar
+exec app_process $base/bin com.fqcheng220.autotest.appiumdemo.demo.ArgsMain "$@"

@@ -1,5 +1,7 @@
 package com.fqcheng220.autotest.appiumdemo.demo;
 
+import java.net.URI;
+
 /**
  * hotsopt jvm字节码demo
  */

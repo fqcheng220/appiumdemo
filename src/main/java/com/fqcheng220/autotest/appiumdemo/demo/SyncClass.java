@@ -18,6 +18,14 @@ public class SyncClass {
         System.out.println(String.format("s1=%s,s2=%s",s1,s2));
         s1 = "456";
         System.out.println(String.format("s1=%s,s2=%s",s1,s2));
+
+        System.out.println(1 & -2);
+        System.out.println(2 & -3);
+        System.out.println(3 & -4);
+        System.out.println(4 & -5);
+        System.out.println(5 & -6);
+        System.out.println(6 & -7);
+        System.out.println(7 & -8);
     }
 
     private static void testVolatile(){

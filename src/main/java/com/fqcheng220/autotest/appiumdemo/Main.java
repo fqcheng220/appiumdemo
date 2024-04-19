@@ -1,5 +1,7 @@
 package com.fqcheng220.autotest.appiumdemo;
 
+import com.fqcheng220.autotest.appiumdemo.dfcf.AutoTestAndroidNativeDfcf;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,6 +9,7 @@ public class Main {
         AutoTest autoTest = new AutoTestAndroidNativeTonghuashun();
 //        AutoTest autoTest = new AutoTestAndroidWebViewDemo();
 //        AutoTest autoTest = new AutoTestAndroidWebViewQonline();
+//        AutoTest autoTest = new AutoTestAndroidNativeDfcf();
         autoTest.start();
 //        nativeTest2();
     }
